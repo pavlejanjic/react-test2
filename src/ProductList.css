@@ -1,0 +1,24 @@
+.product-list--general {
+  padding-left: 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-list--button {
+  font: inherit;
+  margin-left: 48%;
+  margin-bottom: 2%;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+
+  background-color: aliceblue;
+}
+
+.product-list--button:hover {
+  cursor: pointer;
+  background-color: rgb(108, 96, 214);
+  color: white;
+  transition: all 0.2s linear;
+}

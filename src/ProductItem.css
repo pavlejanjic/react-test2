@@ -1,0 +1,63 @@
+h3 {
+  margin: 1rem 0 0;
+}
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+.product-item--general {
+  background-color: rgb(195, 213, 230);
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 30rem;
+  width: 25rem;
+
+  margin-left: 2rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+
+  max-width: 100%;
+
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.product-item--img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product-item--buttons {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.product-item--buttons button {
+  font: inherit;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+
+  background-color: aliceblue;
+}
+
+.product-item--buttons button:hover,
+a:hover {
+  cursor: pointer;
+  background-color: rgb(108, 96, 214);
+  color: white;
+  transition: all 0.2s linear;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

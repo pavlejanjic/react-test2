@@ -1,0 +1,41 @@
+.edit-product-form--general {
+  width: 30rem;
+  max-width: 100%;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: rgb(195, 213, 230);
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+.edit-product-form--general input {
+  width: 100%;
+  margin-bottom: 1.2rem;
+  padding: 0.6rem 0.3rem;
+  border: 0.1rem solid #dddddd;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+}
+
+.edit-product-form--general button {
+  font: inherit;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+
+  background-color: aliceblue;
+}
+
+.edit-product-form--general button:hover {
+  cursor: pointer;
+  background-color: rgb(108, 96, 214);
+  color: white;
+  transition: all 0.2s linear;
+}
+
+.edit-product-form--textarea {
+  width: 486px;
+  height: 108px;
+}

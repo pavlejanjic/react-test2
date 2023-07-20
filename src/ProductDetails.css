@@ -1,0 +1,25 @@
+.product-details--general {
+  width: 40rem;
+  margin: 4rem auto;
+
+  text-align: center;
+}
+
+.product-details--button {
+  font: inherit;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  margin-top: 1.2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+
+  background-color: aliceblue;
+}
+
+.product-details--button:hover {
+  cursor: pointer;
+  background-color: rgb(108, 96, 214);
+  color: white;
+  transition: all 0.2s linear;
+}
